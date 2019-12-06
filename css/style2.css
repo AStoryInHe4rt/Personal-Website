@@ -9,6 +9,10 @@ body, html{
   scroll-behavior: smooth;
 }
 
+div {
+   line-height: 20px;
+}
+
 
 
 .pimg1, .pimg2, .pimg3{
@@ -26,7 +30,7 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/palm-tree3.gif');
+  background-image:url('../img/Vaporwave.gif');
   min-height:100%;
 }
 
@@ -66,6 +70,7 @@ body, html{
   font-family: "Lato", sans-serif;
 }
 
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -87,6 +92,57 @@ body, html{
 .section-dark{
   background-color:#282e34;
   color:#ddd;
+}
+
+#data #a {
+  display: inline;
+  text-decoration: bold;
+}
+
+#data:hover #a {
+  display: none;
+}
+
+#data #b {
+  display: none;
+}
+
+#data:hover #b {
+  display: inline;
+}
+
+#data2 #a2 {
+  display: inline;
+  text-decoration: bold;
+}
+
+#data2:hover #a2 {
+  display: none;
+}
+
+#data2 #b2 {
+  display: none;
+}
+
+#data2:hover #b2 {
+  display: inline;
+}
+
+.hover {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #f4f4f4;
+}
+
+a:visited {
+  color: #f4f4f4;
 }
 
 .ptext{
