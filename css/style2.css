@@ -128,6 +128,23 @@ div {
   display: inline;
 }
 
+#data3 #a3 {
+  display: inline;
+  text-decoration: bold;
+}
+
+#data3:hover #a3 {
+  display: none;
+}
+
+#data3 #b3 {
+  display: none;
+}
+
+#data3:hover #b3 {
+  display: inline;
+}
+
 .hover {
   font-size: 1.2rem;
   font-weight: bold;
